@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">ክፍያ</string>
+
+    <!-- Header & Status -->
+    <string name="portal_title">የክፍያ እና የስልክ መክፈቻ ፖርታል</string>
+    <string name="portal_subtitle">በቴሌብር ወይም በባንክ ክፍያ ፈጽመው ስልኩን ወዲያውኑ ይክፈቱ</string>
+    <string name="status_locked">ሁኔታ፡ ክፍያ ይጠበቃል</string>
+    <string name="status_unlocked">ሁኔታ፡ ክፍያ ተረጋግጧል — ተከፍቷል</string>
+
+    <!-- Bank List Section -->
+    <string name="section_accounts_title">የክፍያ አካውንቶች (Accounts)</string>
+    <string name="section_accounts_hint">ቁጥሩን ለመቅዳት «ቅዳ» የሚለውን ይጫኑ ወይም ካርዱን ይምረጡ</string>
+    <string name="bank_owner_label">ስም: %1$s</string>
+    <string name="action_copy">ቅዳ</string>
+    <string name="action_copied">ተቀድቷል</string>
+    <string name="snackbar_copied_account">የአካውንት ቁጥሩ ተቀድቷል፡ %1$s</string>
+
+    <!-- Form Section -->
+    <string name="section_confirm_title">የክፍያ ማረጋገጫ (Payment Confirmation)</string>
+    <string name="label_payment_method">የከፈሉበት መንገድ</string>
+    <string name="label_transaction_ref">የክፍያ ማረጋገጫ ቁጥር (Transaction ID / FT...)</string>
+    <string name="placeholder_transaction_ref">ለምሳሌ: FT24112... ወይም የከፈሉበት ስልክ</string>
+    <string name="error_empty_transaction_ref">እባክዎ የክፍያ ማረጋገጫ ቁጥር (Transaction ID) ወይም የከፈሉበትን ስልክ ያስገቡ</string>
+    <string name="error_short_transaction_ref">እባክዎ ትክክለኛ የክፍያ ማረጋገጫ ቁጥር (ቢያንስ 4 ፊደል/ቁጥር) ያስገቡ</string>
+    <string name="action_confirm_unlock">ክፍያውን አረጋግጥና ስልኩን ክፈት</string>
+    <string name="action_confirming">በማረጋገጥ ላይ...</string>
+    <string name="action_back">ተመለስ</string>
+    <string name="cd_clear_input">ጽሑፉን አጥፋ</string>
+
+    <!-- Status Overview Screen -->
+    <string name="overview_card_locked_title">ስልኩን ለመክፈት ክፍያ ይፈጽሙ</string>
+    <string name="overview_card_locked_desc">ከታች ባሉት የቴሌብር ወይም የባንክ አካውንቶች ክፍያ ከፈጸሙ በኋላ የማረጋገጫ ቁጥሩን በማስገባት መክፈት ይችላሉ።</string>
+    <string name="overview_card_unlocked_title">ክፍያዎ በተሳካ ሁኔታ ተረጋግጧል</string>
+    <string name="overview_card_unlocked_desc">ስልኩ ለአገልግሎት ዝግጁ ነው። ተጨማሪ ክፍያ መላክ ከፈለጉ ከታች ያለውን ቁልፍ ይጫኑ።</string>
+    <string name="action_open_payment_form">ክፍያ ፈጽምና ስልኩን ክፈት</string>
+    <string name="action_new_payment">አዲስ ክፍያ ላክ</string>
+    <string name="steps_title">የአከፋፈል ደረጃዎች</string>
+    <string name="step_one">1. ከቴሌብር፣ ንግድ ባንክ (CBE) ወይም አቢሲኒያ ባንክ አንዱን ይምረጡና አካውንቱን ይቅዱ።</string>
+    <string name="step_two">2. ክፍያውን ወደ አካውንቱ (አዲሴ አራጋው) ይላኩ።</string>
+    <string name="step_three">3. የተላከልዎትን Transaction ID (FT...) ወይም የከፈሉበትን ስልክ በማስገባት ያረጋግጡ።</string>
+
+    <!-- Receipts & History -->
+    <string name="history_title">የተላኩ የክፍያ ማረጋገጫዎች</string>
+    <string name="history_empty_title">እስካሁን የተረጋገጠ ክፍያ የለም</string>
+    <string name="history_empty_desc">ክፍያ ሲያረጋግጡ ደረሰኞች እዚህ ይታያሉ</string>
+    <string name="receipt_badge_verified">ተረጋግጧል</string>
+    <string name="receipt_title">ክፍያው ተረጋግጧል!</string>
+    <string name="receipt_subtitle">የክፍያ መረጃዎ ተመዝግቧል፤ ስልኩ ተከፍቷል።</string>
+    <string name="receipt_recipient_label">ተቀባይ</string>
+    <string name="receipt_recipient_value">አዲሴ አራጋው</string>
+    <string name="receipt_method_label">የክፍያ መንገድ</string>
+    <string name="receipt_ref_label">ማረጋገጫ ቁጥር</string>
+    <string name="receipt_time_label">ቀን እና ሰዓት</string>
+    <string name="action_clear_history">ታሪክ አጽዳ</string>
+</resources>

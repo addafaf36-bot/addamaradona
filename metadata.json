@@ -1,0 +1,6 @@
+{
+  "name": "ክፍያ",
+  "description": "የቴሌብር እና የባንክ ክፍያ ማረጋገጫና የስልክ መክፈቻ መተግበሪያ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
